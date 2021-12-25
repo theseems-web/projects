@@ -5,17 +5,21 @@ import Project from "./components/Project";
 import Tag from "./components/Tag";
 import LinkTag from "./components/LinkTag";
 import GithubIcon from "./components/GithubIcon";
+import HomepageIcon from "./components/HomepageIcon";
+import IconList from "./components/IconList";
 
 function App() {
     return (
         <div
             className="App dark:bg-gray-900 dark:text-gray-400 transition duration-700 flex flex-wrap align-middle"
             style={{flexDirection: 'column'}}>
-            <ColorSwitch/>
+            <IconList>
+                <HomepageIcon href={"/"}/>
+                <ColorSwitch/>
+            </IconList>
             <div className="p-8 rounded-lg max-w-prose mx-auto">
                 <div className="flex flex-wrap align-middle justify-center text-center mx-auto">
-                    <Header title={"Projects"}
-                            description={"All of projects in which i was involved"}/>
+                    <Header title={"Projects"} description={"All of projects in which i was involved"}/>
                 </div>
             </div>
 
