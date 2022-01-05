@@ -47,10 +47,8 @@ function App() {
                             modularity (just put plugin's jar there and it works)
                             abstractions of different levels: storage, commands, polls, punishments
                         </p>
-
-
                         <div className={"flex align-middle items-center justify-center gap-4"}>
-                            <LinkTag icon={<GithubIcon href={"https://github.com/theseems/clinq"}/>}/>
+                            <LinkTag icon={<GithubIcon href={"https://github.com/tomshelbybot"}/>}/>
                             <Tag name={"Java"}/>
                             <Tag name={"Telegram"}/>
                         </div>
@@ -62,10 +60,8 @@ function App() {
                             projects as a free alternative of some enterprise systems to collect
                             feedback from testers and track all of bugs they find
                         </p>
-
-
                         <div className={"flex align-middle items-center justify-center gap-4"}>
-                            <LinkTag icon={<GithubIcon href={"https://github.com/theseems/clinq"}/>}/>
+                            <LinkTag icon={<GithubIcon href={"https://github.com/theseems/treports"}/>}/>
                             <Tag name={"Python"}/>
                             <Tag name={"Bug tracker"}/>
                         </div>
@@ -76,10 +72,8 @@ function App() {
                             AM is a symbolic algebra library. I've started a discrete math module
                             there and made some other minor changes
                         </p>
-
-
                         <div className={"flex align-middle items-center justify-center gap-4"}>
-                            <LinkTag icon={<GithubIcon href={"https://github.com/theseems/clinq"}/>}/>
+                            <LinkTag icon={<GithubIcon href={"https://github.com/asc-community/AngouriMath"}/>}/>
                             <Tag name={"FOSS"}/>
                             <Tag name={"C#"}/>
                             <Tag name={"Math"}/>
@@ -91,10 +85,8 @@ function App() {
                             This is a fast library for the purposes of matrices and tensor calculations.
                             There i've implemented a LU and PLU decompositions
                         </p>
-
-
                         <div className={"flex align-middle items-center justify-center gap-4"}>
-                            <LinkTag icon={<GithubIcon href={"https://github.com/theseems/clinq"}/>}/>
+                            <LinkTag icon={<GithubIcon href={"https://github.com/asc-community/GenericTensor"}/>}/>
                             <Tag name={"FOSS"}/>
                             <Tag name={"C#"}/>
                             <Tag name={"Math"}/>
@@ -106,16 +98,13 @@ function App() {
                             MxEngine is a graphics engine made from scratch.
                             There i've fixed some bugs in a texture manipulation tools
                         </p>
-
-
                         <div className={"flex align-middle items-center justify-center gap-4"}>
-                            <LinkTag icon={<GithubIcon href={"https://github.com/theseems/clinq"}/>}/>
+                            <LinkTag icon={<GithubIcon href={"https://github.com/asc-community/MxEngine"}/>}/>
                             <Tag name={"FOSS"}/>
                             <Tag name={"C++"}/>
                             <Tag name={"CG"}/>
                         </div>
                     </Project>
-
                 </div>
             </div>
         </div>
