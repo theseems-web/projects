@@ -25,6 +25,21 @@ function App() {
 
             <div className="p-8 rounded-lg max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+                    <Project title={"Droply"}>
+                        <p className="font-light mt-2">
+                            A minimalistic file transfer application using both P2P and centralized approaches.
+
+                            I've been mainly involved in developing backend of this application.
+                        </p>
+
+                        <div className={"flex align-middle items-center justify-center gap-4"}>
+                            <LinkTag icon={<GithubIcon href={"https://github.com/beydex/droply-backend"}/>}/>
+                            <Tag name={"Kotlin"}/>
+                            <Tag name={"Ktor"}/>
+                            <Tag name={"Spring"}/>
+                        </div>
+                    </Project>
                     <Project title={"ClinQ"}>
                         <p className="font-light mt-2">
                             An experimental "fluent" validator supporting declarative-like checks
