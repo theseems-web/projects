@@ -30,7 +30,7 @@ function App() {
                         <p className="font-light mt-2">
                             A minimalistic file transfer application using both P2P and centralized approaches.
 
-                            I've been mainly involved in developing backend of this application.
+                            I've been mainly involved in developing the backend of this application.
                         </p>
 
                         <div className={"flex align-middle items-center justify-center gap-4"}>
@@ -42,10 +42,8 @@ function App() {
                     </Project>
                     <Project title={"ClinQ"}>
                         <p className="font-light mt-2">
-                            An experimental "fluent" validator supporting declarative-like checks
+                            An experimental validator supporting declarative-like checks
                             with a simple formal language under the hood.
-
-                            This is made just for experiments, but i really like it in action in some cases.
                         </p>
 
                         <div className={"flex align-middle items-center justify-center gap-4"}>
@@ -57,7 +55,7 @@ function App() {
 
                     <Project title={"TomShelBot"}>
                         <p className="font-light mt-2">
-                            A Telegram Java SDK wrapper with such convenient features as: handlers (messages, updates,
+                            A Telegram Java SDK wrapper with many features such as: handlers (messages, updates,
                             etc.),
                             modularity (just put plugin's jar there and it works)
                             abstractions of different levels: storage, commands, polls, punishments
@@ -73,7 +71,7 @@ function App() {
                         <p className="font-light mt-2">
                             A simple bug-report-ish system, were actually used in some of my
                             projects as a free alternative of some enterprise systems to collect
-                            feedback from testers and track all of bugs they find
+                            feedback from testers and track all of the bugs they found
                         </p>
                         <div className={"flex align-middle items-center justify-center gap-4"}>
                             <LinkTag icon={<GithubIcon href={"https://github.com/theseems/treports"}/>}/>
@@ -84,7 +82,7 @@ function App() {
 
                     <Project title={"AngouriMath"}>
                         <p className="font-light mt-2">
-                            AM is a symbolic algebra library. I've started a discrete math module
+                            AM is a symbolic algebra library. I've introduced a discrete math module
                             there and made some other minor changes
                         </p>
                         <div className={"flex align-middle items-center justify-center gap-4"}>
@@ -97,7 +95,7 @@ function App() {
 
                     <Project title={"GenericTensor"}>
                         <p className="font-light mt-2">
-                            This is a fast library for the purposes of matrices and tensor calculations.
+                            This is a high-performance library for matrix and tensor calculus.
                             There i've implemented a LU and PLU decompositions
                         </p>
                         <div className={"flex align-middle items-center justify-center gap-4"}>

@@ -10,7 +10,7 @@ function IconList(props) {
     });
 
     return (
-        <div className="flex flex-wrap align-middle justify-center text-center mx-auto space-x-6 absolute left-10 top-8">
+        <div className="flex flex-wrap align-middle justify-center text-center mx-auto space-x-6 absolute left-10 top-6">
             {children}
         </div>
     )
